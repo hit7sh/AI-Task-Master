@@ -1,10 +1,9 @@
---upgrade pip
-faiss-cpu==1.7.4
+faiss-cpu
 langchain
-openai==0.27.7
-pandas==2.0.1
-pypdf==3.9.0
-pytube==15.0.0
-streamlit==1.22.0
-youtube-transcript-api==0.6.0
+openai
+pandas
+pypdf
+pytube
+streamlit
+youtube-transcript-api
 streamlit_option_menu
