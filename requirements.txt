@@ -6,3 +6,4 @@ pypdf
 pytube
 streamlit
 youtube-transcript-api
+streamlit_option_menu
