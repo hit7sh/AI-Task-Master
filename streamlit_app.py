@@ -26,7 +26,9 @@ import pandas as pd
 
 
 
-
+def save_uploaded_file(uploadedFile):
+    with open(os.path.join('assets', uploadedFile.name), 'wb') as f:
+        f.write(uploadedFile.getbuffer())
 
 with streamlit.sidebar:
     streamlit.markdown('<h1>AI tasks Master</h1>', True)
@@ -99,9 +101,10 @@ if (selected == 'Questions from PDF 💬'):
     streamlit.title('Ask questions from your pdf!')
     pdf = streamlit.file_uploader("Upload your PDF:", type='pdf')
     if pdf:
+        save_uploaded_file(pdf)
         file_name = pdf.name
 
-        loader = PyPDFLoader("./assets/pdfs/"+file_name)
+        loader = PyPDFLoader("./assets/"+file_name)
         pages = loader.load()
 
         text_splitter = RecursiveCharacterTextSplitter(chunk_size=3000, chunk_overlap=400)
@@ -150,8 +153,8 @@ if (selected == 'Questions from your database'):
     
     if db:
         file_name = db.name
-
-        df = pd.read_csv('./assets/csv/'+file_name)
+        save_uploaded_file(db)
+        df = pd.read_csv('./assets/'+file_name)
         with streamlit.expander('Your database: '):
             streamlit.dataframe(df)
 
@@ -174,7 +177,8 @@ if (selected == 'Questions from your text file 💬'):
 
     if txt:
         file_name = txt.name
-        loader = TextLoader('./assets/txts/'+file_name)
+        save_uploaded_file(txt)
+        loader = TextLoader('./assets/'+file_name)
         pages = loader.load()
 
         text_splitter = RecursiveCharacterTextSplitter(chunk_size=3000, chunk_overlap=400)
