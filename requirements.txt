@@ -1,5 +1,6 @@
+--upgrade pip
 faiss-cpu==1.7.4
-langchain>=0.0.180
+langchain
 openai==0.27.7
 pandas==2.0.1
 pypdf==3.9.0
