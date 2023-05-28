@@ -1,3 +1,5 @@
+pip
+tiktoken
 faiss-cpu
 langchain
 openai
