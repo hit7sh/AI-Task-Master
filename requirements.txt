@@ -1,4 +1,5 @@
 pip
+tabulate
 tiktoken
 faiss-cpu
 langchain
