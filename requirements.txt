@@ -5,5 +5,4 @@ pandas
 pypdf
 pytube
 streamlit
-tiktoken
 youtube-transcript-api
