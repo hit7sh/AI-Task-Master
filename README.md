@@ -15,15 +15,22 @@ In addition to PDFs and databases, AI Task Master supports extracting questions 
 
 Furthermore, AI Task Master goes beyond traditional question extraction tools by incorporating a friendly chatbot feature.
 
+![image](https://github.com/hit7sh/AI-Task-Master/assets/57103779/a69fd93f-a904-454d-a96e-f012d5f0198b)
+
 
 
 ## Try the app for yourself..
 
-https://ai-task-master.onrender.com/
+![image](https://github.com/hit7sh/AI-Task-Master/assets/57103779/19f2529a-453e-4ebc-b6c2-50b7a901a0da)
+
+![image](https://github.com/hit7sh/AI-Task-Master/assets/57103779/84734771-c0b4-4f85-b721-96238a8af774)
 
 
 ## How to get api key
 
 - Go to https://platform.openai.com/account/api-keys
 - Click on 'create new secret key'
+![image](https://github.com/hit7sh/AI-Task-Master/assets/57103779/e6654d6b-9bc2-43af-9ad1-a868223d5bf9)
+
 - Copy the generated key and use it in the app.
+![image](https://github.com/hit7sh/AI-Task-Master/assets/57103779/d7b66b34-a584-4556-baea-1ec275952eef)
