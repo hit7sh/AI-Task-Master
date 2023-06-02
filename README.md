@@ -1,5 +1,5 @@
 
-# AI Task Master
+# [AI Task Master](https://ai-task-master.onrender.com/)
 
 Are you tired of spending countless hours manually extracting questions from PDF documents, searching your database for specific questions, or sifting through text files? Look no further! AI Task Master is here to revolutionize your workflow and make your life easier.
 
@@ -15,23 +15,15 @@ In addition to PDFs and databases, AI Task Master supports extracting questions 
 
 Furthermore, AI Task Master goes beyond traditional question extraction tools by incorporating a friendly chatbot feature.
 
-![image](https://github.com/hit7sh/AI-Task-Master/assets/57103779/a69fd93f-a904-454d-a96e-f012d5f0198b)
 
 
 
-## [Try the app for yourself..]( -task-master.onrender.com )
-
-##
-
+## PDF QAs
 ![image](https://github.com/hit7sh/AI-Task-Master/assets/57103779/19f2529a-453e-4ebc-b6c2-50b7a901a0da)
 
 
 
-
-
-
-##
-
+## YouTube QAs
 ![image](https://github.com/hit7sh/AI-Task-Master/assets/57103779/84734771-c0b4-4f85-b721-96238a8af774)
 
 
