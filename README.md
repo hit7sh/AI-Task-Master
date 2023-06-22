@@ -36,4 +36,3 @@ Furthermore, AI Task Master goes beyond traditional question extraction tools by
 ![image](https://github.com/hit7sh/AI-Task-Master/assets/57103779/e6654d6b-9bc2-43af-9ad1-a868223d5bf9)
 
 - Copy the generated key and use it in the app.
-![image](https://github.com/hit7sh/AI-Task-Master/assets/57103779/d7b66b34-a584-4556-baea-1ec275952eef)
